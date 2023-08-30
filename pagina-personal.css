@@ -1,0 +1,100 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    margin: 0;
+}
+
+.barra-arriba, footer {
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem 0.8rem;
+    font-size: 1rem;
+    
+
+}
+
+
+.barra-arriba a, footer a {
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+.barra-arriba ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.barra-arriba li {
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 0rem 2rem;
+
+
+}
+
+body h3{
+    margin: 2rem;
+    padding: 0rem 0rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+}
+
+.barra-arriba li a:hover,div .titulos:hover, .titulo2:hover,.titulo3:hover,footer a:hover,footer p:hover {
+    color: #31A981;
+    border: 100%;
+    transition: 0.3s ease;
+}
+
+.texto, .textoRed {
+
+    border-radius: 1.5rem;
+    width: 1200px;
+    margin: 2rem;
+    display: flex;
+    outline: 3px solid #31A981;
+    padding: 2rem;
+    align-items: center;
+    font-size: 1.4rem;  
+}
+
+.imagen {
+    margin-right: 1rem;
+    border-radius: 50%;
+    
+}
+.imagenElder {
+    margin-right: 1rem;
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+}
+.textoRed{
+    justify-content: center;
+}
+.imagen-logo{
+    height: 200px;
+    width: 200px;  
+    padding-right: 1rem;
+}
+footer{
+    font-size: 1.2rem;
+}
+footer section{
+    float: right;
+}
+footer p{
+    margin: 0;
+    padding: 0.2rem;
+}
+footer a{
+    text-decoration: none;
+
+}
